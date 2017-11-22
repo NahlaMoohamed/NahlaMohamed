@@ -12,7 +12,7 @@ body{
 	background-color: rgba(255,230,234,0.3) !important;
 }
 #header-img{
-	height: 640px;
+	height: 64rem;
 	background-image: url("cover.png");
 	background-repeat: no-repeat;
 	background-color: #ffe6ea;
@@ -68,16 +68,14 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 .snowflake{
 	background-image: url('img-background.png');
 	background-repeat: no-repeat;
+	background-position: center;
 	width: 492px;
 	height: 228px;
-	display: inline-block;
-	vertical-align: middle;
-
 }
+
 .pp2{
-	display: inline-block;
-	vertical-align: middle;
 	border-radius: 50%;
+	position: center;
 }
 .margin-2{
 	margin: 2%;
@@ -109,4 +107,27 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 
 .footer > a:hover{
 	background-color: rgba(255,230,234,0.4) !important;
+}
+.snowflake-padding{
+	padding-top: 4em !important;
+}
+@media only screen and (max-width: 480px) {
+  .snowflake{
+  	background-image: none;
+  	width: 130px;
+  	height: 130px;
+  }
+  .snowflake-padding{
+  	padding:5px !important;
+  }
+  #header-img{
+  	background-image: none;
+  }
+  .mobile{
+  	position: relative;
+    left: 50%;
+    margin-left: -50px !important; 
+    display: block;
+    padding-top: 0;
+  }
 }
