@@ -6,21 +6,29 @@
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
+:root {
+font-size: 16px;
+}
+html {
+	height:100%;}
 body{
 	font-family: 'Tw Cen MT', sans-serif !important;
 	color: #ff6699 !important;
 	background-color: rgba(255,230,234,0.3) !important;
 }
-#header-img{
+#header-img
+{
 	height: 64rem;
 	background-image: url("cover.png");
 	background-repeat: no-repeat;
 	background-color: #ffe6ea;
+	position: relative;
+	margin: 0 auto;
+	background-size: contain;
 }
-
 hr{
 	color:  #e6004c !important;
-	width: 500px;
+	width: 31.25rem;
 	size: 3px !important;
 }
 h2 , h1 , a , .navbar-nav>li>a , .dark-color{
@@ -34,7 +42,7 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 .home-header{
 	font-family: 'Tangerine' !important;
 	line-height: 1.42857143 !important;
-	font-size: 100px !important;
+	font-size: 6.25rem !important;
 }
 .nav_style
 {
@@ -47,7 +55,7 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 	border-radius: 50% !important;
 }
 .nav.navbar-nav.navbar-right  > li  > a>  h3{
-	margin: 10px !important;
+	margin: 0.625rem !important;
 	background-color: transparent;
 	display: inline-block;
 }
@@ -56,21 +64,21 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 	text-transform: uppercase !important;
 }
 .navbar-header{
-	margin: 5px auto;
+	margin: 0.3125rem auto;
 	margin-top: 1%;
 	margin-left: 3%;
 }
 .pp{
 	border-radius: 50%;
-	margin-left: 5px !important;
-	margin-top: 2px !important; 
+	margin-left: 0.3125rem !important;
+	margin-top: 0.125rem !important; 
 }
 .snowflake{
 	background-image: url('img-background.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 492px;
-	height: 228px;
+	width: 30.75rem;
+	height: 14.25rem;
 }
 
 .pp2{
