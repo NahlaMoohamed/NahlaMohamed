@@ -17,12 +17,7 @@ body{
 	background-repeat: no-repeat;
 	background-color: #ffe6ea;
 }
-.snowflake{
-	background-image: url('img-background.png');
-	background-repeat: no-repeat;
-	width: 492px;
-	height: 228px;
-}
+
 hr{
 	color:  #e6004c !important;
 	width: 500px;
@@ -67,8 +62,23 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 }
 .pp{
 	border-radius: 50%;
+	margin-left: 5px !important;
+	margin-top: 2px !important; 
 }
+.snowflake{
+	background-image: url('img-background.png');
+	background-repeat: no-repeat;
+	width: 492px;
+	height: 228px;
+	display: inline-block;
+	vertical-align: middle;
 
+}
+.pp2{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+}
 .margin-2{
 	margin: 2%;
 }
