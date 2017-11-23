@@ -96,6 +96,10 @@ progress::-moz-progress-bar {
 	font-weight: bold;
 	line-height: 1.4;
 }
+.pp3{
+	border-radius: 50%;
+	margin-left: 0.3125rem !important;
+}
 /*work.html style classes and ids */
 #header-img-2
 {
@@ -117,7 +121,9 @@ progress::-moz-progress-bar {
 	max-height: 37.5rem;
 	overflow: scroll;
 }
-
+.nav-h3-style{
+	font-size: 1.25rem;
+}
 /*index.html style classes and ids */
 #header-img
 {
@@ -185,7 +191,7 @@ progress::-moz-progress-bar {
 	position: relative;
 	margin: 0 auto;
 	background-size: contain;
-	max-height: 35rem;
+	max-height: 39.5rem;
 }
   .mobile{
   	position: relative;
