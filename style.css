@@ -84,8 +84,8 @@ progress::-webkit-progress-value {
 	height: 0.6rem;
 	width: 13rem;
 }
-progress::-moz-progress-bar {
-  	background-color:  rgb(211,211,211) !important;
+progress[value]::-moz-progress-bar {
+  	background-color:  #e6004c !important;
 	vertical-align: middle !important;
 	border-radius: 0.4rem; 
 	height: 0.6rem;
