@@ -177,7 +177,7 @@ progress[value]::-moz-progress-bar {
     align-items: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .snowflake{
   	background-image: none;
   	width: 8.125rem;
