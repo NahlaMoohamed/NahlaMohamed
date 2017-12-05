@@ -219,7 +219,7 @@ progress[value]::-moz-progress-bar {
   	padding: 0.3125rem !important;
   }
   .header-img-mobile , #header-img, #header-img-2{
-  	background-image: url("mobile-cover.jpg");
+  	background-image: none;
 	position: relative;
 	margin: 0 auto;
 	max-height: 47rem;
