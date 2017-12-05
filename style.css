@@ -127,7 +127,7 @@ progress[value]::-moz-progress-bar {
 /*index.html style classes and ids */
 #header-img
 {
-	height: 50rem;
+	height: 39rem;
 	background-image: url("cover.png");
 	background-repeat: no-repeat;
 	background-color: #ffe6ea;
