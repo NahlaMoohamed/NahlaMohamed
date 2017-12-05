@@ -177,7 +177,39 @@ progress[value]::-moz-progress-bar {
     align-items: center;
 }
 
-@media only screen and (max-width: 480px) or (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
+  .snowflake{
+  	background-image: none;
+  	width: 8.125rem;
+  	height: 8.125rem;
+  }
+  .snowflake-padding{
+  	padding: 0.3125rem !important;
+  }
+  .header-img-mobile , #header-img, #header-img-2{
+  	background-image: url("mobile-cover.jpg");
+	position: relative;
+	margin: 0 auto;
+	max-height: 47rem;
+	background-repeat: repeat;
+}
+  .mobile{
+  	position: relative;
+    left: 50%;
+    margin-left: -3.125rem !important; 
+    display: block;
+    padding-top: 0;
+
+  }
+  .home-header{
+	font-family: 'Tangerine' !important;
+	line-height: 1.42857143 !important;
+	font-size: 4rem !important;
+	padding-right: 1rem;
+}
+}
+
+@media only screen and (max-device-width: 600px) {
   .snowflake{
   	background-image: none;
   	width: 8.125rem;
