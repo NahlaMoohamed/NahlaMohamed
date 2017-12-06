@@ -218,7 +218,7 @@ progress[value]::-moz-progress-bar {
 }
 
 }
-
+/*
 @media only screen and (max-device-width: 480px){
 	.pp3{
 	border-radius: 50%;
@@ -234,7 +234,7 @@ progress[value]::-moz-progress-bar {
 
   }
 }
-/*
+
 @media only screen and (max-device-width: 768px){
 	.pp3{
 	border-radius: 50%;
