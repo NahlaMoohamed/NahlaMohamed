@@ -32,6 +32,9 @@ h2 , h1 , a , .navbar-nav>li>a , .dark-color{
 	background-color: transparent;
 	display: inline-block;
 }
+.nav.navbar-nav.navbar-right{
+	margin-top: 1.7rem;
+}
 .navbar-header{
 	margin: 0.3125rem auto;
 	margin-top: 1%;
@@ -98,7 +101,8 @@ progress[value]::-moz-progress-bar {
 }
 .pp3{
 	border-radius: 50%;
-	margin-left: 0.3125rem !important;
+	margin-left: 1.9rem !important;
+	margin-top: 1.9rem;
 }
 /*work.html style classes and ids */
 #header-img-2
@@ -176,7 +180,12 @@ progress[value]::-moz-progress-bar {
     display: flex;
     align-items: center;
 }
-
+.navbar-toggle{
+	background-color:#e6004c !important;
+}
+.icon-bar{
+	background-color:white !important;
+}
 @media only screen and (max-width: 480px) {
   .snowflake{
   	background-image: none;
@@ -187,11 +196,11 @@ progress[value]::-moz-progress-bar {
   	padding: 0.3125rem !important;
   }
   .header-img-mobile , #header-img, #header-img-2{
-  	background-image: url("mobile-cover.jpg");
+  	background-image: none;
 	position: relative;
 	margin: 0 auto;
 	max-height: 47rem;
-	background-repeat: repeat;
+	background-repeat: repeat-y;
 }
   .mobile{
   	position: relative;
