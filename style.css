@@ -216,4 +216,27 @@ progress[value]::-moz-progress-bar {
 	font-size: 4rem !important;
 	padding-right: 1rem;
 }
+
+}
+@media only screen and (max-device-width: 480px){
+	.pp3{
+	border-radius: 50%;
+	margin-left: 0.7rem !important;
+	margin-top: 0.8rem;
+}
+}
+
+@media only screen and (max-device-width: 768px){
+	.pp3{
+	border-radius: 50%;
+	margin-left: 0.6rem !important;
+	margin-top: 0.8rem;
+}
+}
+@media only screen and (max-device-width: 1024px){
+	.pp3{
+	border-radius: 50%;
+	margin-left: 0.8rem !important;
+	margin-top: 1rem;
+}
 }
