@@ -236,6 +236,15 @@ progress[value]::-moz-progress-bar {
 		height: 4.375rem;
 	}
 }
+
+@media only screen and (max-device-width: 740px) and (orientation: landscape){
+	.pp3{
+	border-radius: 50%;
+	margin-left: 0.8rem !important;
+	margin-top: 0.5rem;
+	width: 3.5rem;
+	height: 3.5rem;
+}
 /*
 @media only screen and (max-device-width: 480px){
 	.pp3{
