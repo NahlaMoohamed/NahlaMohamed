@@ -248,6 +248,19 @@ progress[value]::-moz-progress-bar {
 	width: 3.5rem;
 	height: 3.5rem;
 }
+.contact-padding{
+	padding: 1rem !important;
+}
+.contact{
+	max-width: 37.5rem !important;
+	display: flex;
+	margin: auto;
+}
+.contact-input{
+	border:1px solid #e6004c;
+	padding: 5px;
+	width: 15rem;
+}
 /*
 @media only screen and (max-device-width: 480px){
 	.pp3{
