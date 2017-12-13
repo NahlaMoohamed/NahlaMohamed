@@ -186,8 +186,13 @@ progress[value]::-moz-progress-bar {
 .icon-bar{
 	background-color:white !important;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) 
+{
+	.contact-float-left{
+	text-align: left !important;
+}
   .snowflake{
+
   	background-image: none;
   	width: 8.125rem;
   	height: 8.125rem;
@@ -219,6 +224,9 @@ progress[value]::-moz-progress-bar {
 
 }
 @media only screen and (device-width: 768px){
+	.contact-float-left{
+	text-align: left !important;
+}
 	.pp3{
 		border-radius: 50%;
 		margin-left: 0.06rem !important;
@@ -241,6 +249,9 @@ progress[value]::-moz-progress-bar {
 }
 
 @media only screen and (max-device-width: 740px) and (orientation: landscape){
+	.contact-float-left{
+	text-align: left !important;
+}
 	.pp3{
 	border-radius: 50%;
 	margin-left: 0.8rem !important;
@@ -248,18 +259,19 @@ progress[value]::-moz-progress-bar {
 	width: 3.5rem;
 	height: 3.5rem;
 }
+}
 .contact-padding{
 	padding: 1rem !important;
 }
 .contact{
 	max-width: 37.5rem !important;
-	display: flex;
-	margin: auto;
+	margin: auto !important;
 }
 .contact-input{
 	border:1px solid #e6004c;
 	padding: 5px;
 	width: 15rem;
+	float: left;
 }
 /*
 @media only screen and (max-device-width: 480px){
