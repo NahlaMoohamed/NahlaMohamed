@@ -48,7 +48,8 @@ $(document).ready(function(){
 		    "<li><h4>Health information network analysis and design containing:</h4></li><ul><h5><li>Class diagram</li></h5><h5><li>Relational database</li></h5><h5><li>Use case diagrams</li></h5><h5><li>Sequence diagrams</li></h5><h5><li>Activity diagrams</li></h5><h5><li>User interfaces and mockups</li></h5><h5><li>Architectural design</li></h5><h5><li><abbr title='Business Process Model and Notation'>BPMN</abbr> diagram</li></h5></ul>",
 		    "<li><h4>Implemented using Java data mining algorithms:</h4></li><ul><h5><li>K-means clustering algorithm</li></h5><h5><li>Bayesian classifier</li></h5><h5><li>K-nearest algorithm</li></h5></ul>"];
     fill(projects ,'#projects');
-	var certificates =["<h5><li>Completed data analyst path course using R programming language on <a href='https://www.dataquest.io/path/data-analyst'>DataQuest</a></li></h5>",
+	var certificates =["<h5><li>Completed introduction to project management course on <a href='https://www.udemy.com/project-management/learn/v4/overview'>Udemy</a></li>.</h5>",
+			"<h5><li>Completed data analyst path course using R programming language on <a href='https://www.dataquest.io/path/data-analyst'>DataQuest</a></li></h5>",
 			   "<h5><li>Completed Bertelsmann Data Science Challenge Scholarship Course on Udacity.</li></h5>",
 			   "<h5><li>Completed Introduction to jQuery course on <a href='https://www.codecademy.com/learn/learn-jquery' >Codeacademy</a></li></h5>",
 			   "<h5><li>Completed JavaScript Basics course on <a href='https://in.udacity.com/course/javascript-basics--ud804'>Udacity</a></li></h5>",
