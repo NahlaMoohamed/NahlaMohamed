@@ -12,7 +12,7 @@ $(document).ready(function(){
 	    });
 	}
 	//filling the navigation of the resume page.
-	var resumeNavList = {"https://nahlamoohamed.github.io/NahlaMohamed/index.html":"About","https://nahlamoohamed.github.io/NahlaMohamed/work.html":"Work","Work":"Work Experience","Education":"Education","Skills":"Skills","Projects":"Projects","Certificates":"Certificates","Activities":"Activities"};
+	var resumeNavList = {"https://nahlamoohamed.github.io/NahlaMohamed/index.html":"About","https://nahlamoohamed.github.io/NahlaMohamed/work.html":"Work","#Work":"Work Experience","#Education":"Education","#Skills":"Skills","#Projects":"Projects","#Certificates":"Certificates","#Activities":"Activities"};
 	fillNav('#resume_nav',resumeNavList);
 	//email navigation 
 	var emailNavList = {"https://nahlamoohamed.github.io/NahlaMohamed/index.html":"About","https://nahlamoohamed.github.io/NahlaMohamed/Resume.html":"Resume","https://nahlamoohamed.github.io/NahlaMohamed/work.html":"Work"};
