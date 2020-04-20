@@ -45,7 +45,7 @@ $(document).ready(function(){
     var tools = ["<div class='row'><div class='col-sm-3'><h5><li>Adobe photoshop (Proficient)</li></h5></div><div class='col-sm-4'><h5><progress value='90' max='100'></progress></h5></div></div>",
 		 "<div class='row'><div class='col-sm-3'><h5><li>SAP BI (Proficient)</li></h5></div><div class='col-sm-4'><h5><progress value='90' max='100'></progress></h5></div></div>",
 		 "<div class='row'><div class='col-sm-3'><h5><li>Oracle BIEE12c (Proficient)</li></h5></div><div class='col-sm-4'><h5><progress value='90' max='100'></progress></h5></div></div>",
-		 "<div class='row'><div class='col-sm-3'><h5><li>Qlik Sense (Prior experience)</li></h5></div><div class='col-sm-4'><h5><progress value='70' max='100'></progress></h5></div></div>" 
+		 "<div class='row'><div class='col-sm-3'><h5><li>Qlik Sense (Prior experience)</li></h5></div><div class='col-sm-4'><h5><progress value='70' max='100'></progress></h5></div></div>",
 		 "<div class='row'><div class='col-sm-3'><h5><li>Power BI (Prior experience)</li></h5></div><div class='col-sm-4'><h5><progress value='70' max='100'></progress></h5></div></div>",
 		 "<div class='row'><div class='col-sm-3'><h5><li>Microsoft SSIS(Prior experience)</li></h5></div><div class='col-sm-4'><h5><progress value='50' max='100'></progress></h5></div></div>"];
     fill(tools,'#tools');
